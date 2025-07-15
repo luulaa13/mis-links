@@ -1,0 +1,72 @@
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #fff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.intro {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #ccff00;
+  margin: 10px 0 0;
+}
+
+.subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.links a {
+  display: block;
+  background-color: #ccff00;
+  color: #000;
+  text-decoration: none;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #b6e100;
+  transform: scale(1.05);
+}
+
+
+
+/* Colores personalizados */
+.linkedin {
+  background-color: #0077b5;
+}
