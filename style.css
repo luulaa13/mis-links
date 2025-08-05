@@ -1,6 +1,6 @@
 body {
-  background-color: #000;
-  color: #fff;
+  background-color: #1E2A38;
+  color: #F6F1EB;
   margin: 0;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -49,8 +49,8 @@ h1 {
 
 .links a {
   display: block;
-  background-color: #ccff00;
-  color: #000;
+  background-color: #F6F1EB;
+  color: #1E2A38;
   text-decoration: none;
   padding: 14px;
   margin: 10px 0;
@@ -69,4 +69,5 @@ h1 {
 /* Colores personalizados */
 .linkedin {
   background-color: #0077b5;
+
 }
