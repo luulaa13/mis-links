@@ -36,7 +36,7 @@ h1 {
 .intro {
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
-  color: #ccff00;
+  color: #FF6F61;
   margin: 10px 0 0;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 .links a:hover {
-  background-color: #b6e100;
+  background-color: #FF6F61;
   transform: scale(1.05);
 }
 
@@ -71,3 +71,4 @@ h1 {
   background-color: #0077b5;
 
 }
+
