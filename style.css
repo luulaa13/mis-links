@@ -17,11 +17,10 @@ body {
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  transform: scale(1.5); /* Acerca la imagen un 20% */
   margin-bottom: 20px;
 }
 
@@ -72,6 +71,7 @@ h1 {
   background-color: #0077b5;
 
 }
+
 
 
 
