@@ -21,6 +21,7 @@ body {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top; /* Cambia 'top', 'bottom', 'left', 'right' según convenga */
   margin-bottom: 20px;
 }
 
@@ -71,6 +72,7 @@ h1 {
   background-color: #0077b5;
 
 }
+
 
 
 
