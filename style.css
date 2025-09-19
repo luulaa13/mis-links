@@ -21,7 +21,7 @@ body {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  transform: scale(1.2); /* Acerca la imagen un 20% */
+  transform: scale(1.5); /* Acerca la imagen un 20% */
   margin-bottom: 20px;
 }
 
@@ -72,6 +72,7 @@ h1 {
   background-color: #0077b5;
 
 }
+
 
 
 
