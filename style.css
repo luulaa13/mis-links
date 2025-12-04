@@ -21,9 +21,8 @@ body {
   height: 230px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
   background-color: white;
-   image-rendering: smooth;
+  image-rendering: smooth !important;
 }
 
 
