@@ -74,17 +74,21 @@ h1 {
 
 }
 
+.icons {
+  display: flex;              /* misma línea */
+  gap: 20px;   
+  justify-content: center;             /* separación entre iconos */
+}
 
+.icons a {
+  color: white;                /* color inicial */
+  font-size: 40px;            /* tamaño del icono */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
+.icons a:hover {
+  color: #e1306c;              /* color al hover (ej: Instagram pink) */
+  transform: scale(1.1);       /* pequeño efecto de agrandar */
+}
 
 
