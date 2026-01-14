@@ -57,7 +57,7 @@ h1 {
 .links a {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* 👈 SIEMPRE empieza igual */
+  justify-content: center; 
   width: 260px;             /* MISMO ancho para todos */
   background-color: #F6F1EB;
   color: #927040;
@@ -81,6 +81,7 @@ h1 {
   color: #927040;
   transform: scale(1.05);
 }
+
 
 
 
