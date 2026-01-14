@@ -49,25 +49,31 @@ h1 {
 }
 
 .links a {
-  display: flex;              /* Flexbox */
-  align-items: center;        /* Centra verticalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* Centra el BLOQUE */
   background-color: #F6F1EB;
   color: #927040;
   text-decoration: none;
-  justify-content: center;
   padding: 14px 20px;
   margin: 10px 0;
   border-radius: 30px;
   font-weight: bold;
   transition: all 0.3s ease;
-  gap: 12px;                  /* Espacio uniforme entre icono y texto */
 }
 
-/* ICONOS */
+/* Contenedor interno implícito */
 .links a i {
-  width: 24px;                /* MISMO ancho para todos */
-  text-align: center;         /* Centra iconos pequeños */
-  font-size: 18px;            /* Tamaño uniforme (opcional) */
+  width: 24px;               /* Columna fija para iconos */
+  text-align: center;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+/* Texto con ancho fijo */
+.links a span {
+  width: 100px;              /* Ajusta según el texto más largo */
+  text-align: left;
 }
 
 .links a:hover {
@@ -75,10 +81,6 @@ h1 {
   color: #927040;
   transform: scale(1.05);
 }
-
-
-
-
 
 
 
