@@ -48,10 +48,17 @@ h1 {
   margin-bottom: 30px;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Centra los botones */
+}
+
 .links a {
   display: flex;
   align-items: center;
-  justify-content: center;   /* Centra el BLOQUE */
+  justify-content: flex-start; /* 👈 SIEMPRE empieza igual */
+  width: 260px;             /* MISMO ancho para todos */
   background-color: #F6F1EB;
   color: #927040;
   text-decoration: none;
@@ -62,18 +69,11 @@ h1 {
   transition: all 0.3s ease;
 }
 
-/* Contenedor interno implícito */
 .links a i {
-  width: 24px;               /* Columna fija para iconos */
+  width: 28px;              /* Columna fija de iconos */
   text-align: center;
   font-size: 18px;
   margin-right: 12px;
-}
-
-/* Texto con ancho fijo */
-.links a span {
-  width: 100px;              /* Ajusta según el texto más largo */
-  text-align: left;
 }
 
 .links a:hover {
