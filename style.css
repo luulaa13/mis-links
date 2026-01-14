@@ -49,15 +49,24 @@ h1 {
 }
 
 .links a {
-  display: block;
+  display: flex;              /* Flexbox */
+  align-items: center;        /* Centra verticalmente */
   background-color: #F6F1EB;
   color: #927040;
   text-decoration: none;
-  padding: 14px;
+  padding: 14px 20px;
   margin: 10px 0;
   border-radius: 30px;
   font-weight: bold;
   transition: all 0.3s ease;
+  gap: 12px;                  /* Espacio uniforme entre icono y texto */
+}
+
+/* ICONOS */
+.links a i {
+  width: 24px;                /* MISMO ancho para todos */
+  text-align: center;         /* Centra iconos pequeños */
+  font-size: 18px;            /* Tamaño uniforme (opcional) */
 }
 
 .links a:hover {
@@ -67,29 +76,6 @@ h1 {
 }
 
 
-
-/* Colores personalizados */
-.linkedin {
-  background-color: #0077b5;
-
-}
-
-.icons {
-  display: flex;              /* misma línea */
-  gap: 20px;   
-  justify-content: center;             /* separación entre iconos */
-}
-
-.icons a {
-  color: white;                /* color inicial */
-  font-size: 40px;            /* tamaño del icono */
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.icons a:hover {
-  color: #e1306c;              /* color al hover (ej: Instagram pink) */
-  transform: scale(1.1);       /* pequeño efecto de agrandar */
-}
 
 
 
