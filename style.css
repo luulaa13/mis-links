@@ -1,5 +1,5 @@
 body {
-  background-color: #080426;
+  background-color: #43302E;
   color: #F6F1EB;
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -90,5 +90,6 @@ h1 {
   color: #e1306c;              /* color al hover (ej: Instagram pink) */
   transform: scale(1.1);       /* pequeño efecto de agrandar */
 }
+
 
 
