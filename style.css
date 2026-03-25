@@ -61,31 +61,36 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center; 
-  width: 260px;             /* MISMO ancho para todos */
+  width: 280px;               /* un poco más ancho */
   background-color: #F6F1EB;
   color: #927040;
   text-decoration: none;
-  padding: 14px 20px;
+  padding: 16px 24px;         /* más alto y ancho de padding */
   margin: 10px 0;
   border-radius: 30px;
   font-weight: bold;
+  font-size: 18px;            /* más legible */
   transition: all 0.3s ease;
 }
 
 .links a i {
-  width: 28px;              /* Columna fija de iconos */
+  width: 28px;                
   text-align: center;
   font-size: 18px;
-  margin-right: 12px;
+  margin-right: 16px;         /* un poco más separación */
 }
 
 .links a:hover {
   background-color: #927040;
   color: #F6F1EB;
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
-
-
+@media (max-width: 480px) {
+  .links a {
+    width: 90%;
+    padding: 16px 20px;
+  }
+}
 
 
 
