@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
   background-color: #0f0f0f;
@@ -29,7 +30,7 @@ body {
 
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', serif;
   font-size: 28px;
   font-weight: 600;
   margin: 5px 0;
@@ -44,7 +45,7 @@ h1 {
 }
 
 .subtitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   color: #927040;
   margin-bottom: 30px;
