@@ -63,7 +63,7 @@ h1 {
   justify-content: center; 
   width: 260px;             /* MISMO ancho para todos */
   background-color: #F6F1EB;
-  color: #7c5cff;
+  color: #927040;
   text-decoration: none;
   padding: 14px 20px;
   margin: 10px 0;
@@ -80,7 +80,7 @@ h1 {
 }
 
 .links a:hover {
-  background-color: #7c5cff;
+  background-color: #927040;
   color: #F6F1EB;
   transform: scale(1.05);
 }
