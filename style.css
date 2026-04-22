@@ -90,45 +90,54 @@ body {
   opacity: 0.7;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 30px;
+.studio-nav {
+  margin-top: 40px;
+  text-align: left;
 }
 
-.links a {
-  padding: 12px 14px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #f5f5f5;
+.nav-group {
+  margin-top: 18px;
+}
 
-  border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(255,255,255,0.02);
+.nav-title {
+  font-size: 11px;
+  opacity: 0.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
 
+/* LINKS */
+.studio-nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
+  padding: 12px 14px;
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+  text-decoration: none;
+
+  color: #f5f5f5;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+
   transition: all 0.25s ease;
 }
 
-.links a::after {
-  content: "→";
-  opacity: 0.4;
-  transition: transform 0.2s ease;
+/* subtítulo dentro del link */
+.studio-nav a span {
+  font-size: 12px;
+  opacity: 0.5;
 }
 
-.links a:hover {
+/* hover */
+.studio-nav a:hover {
   transform: translateY(-2px);
   border-color: rgba(167, 139, 250, 0.3);
-  background: rgba(167, 139, 250, 0.08);
+  background: rgba(167, 139, 250, 0.06);
 }
-
-.links a:hover::after {
-  transform: translateX(3px);
-}
-
 
 .container {
   animation: fadeIn 0.6s ease-out;
