@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --accent: #A78BFA; /* puedes cambiarlo */
+}
+
+
 body {
   font-family: Inter, system-ui;
   background: #0b0b0c;
@@ -40,6 +45,7 @@ body {
   font-size: 16px;
   opacity: 0.9;
   margin-top: 8px;
+  color: var(--accent);
 }
 
 .tagline {
@@ -65,7 +71,8 @@ body {
 }
 
 .highlight {
-  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  background: rgba(167, 139, 250, 0.06);
 }
 
 /* LABELS */
@@ -83,26 +90,74 @@ body {
   opacity: 0.7;
 }
 
-/* LINKS */
 .links {
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  justify-content: center;
   margin-top: 30px;
 }
 
 .links a {
-  padding: 10px 14px;
-  background: rgba(255,255,255,0.04);
-  border-radius: 8px;
+  padding: 12px 14px;
+  border-radius: 10px;
   text-decoration: none;
-  color: white;
-  font-size: 13px;
-  transition: 0.2s;
+  color: #f5f5f5;
+
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all 0.25s ease;
+}
+
+.links a::after {
+  content: "→";
+  opacity: 0.4;
+  transition: transform 0.2s ease;
 }
 
 .links a:hover {
-  background: rgba(255,255,255,0.08);
+  transform: translateY(-2px);
+  border-color: rgba(167, 139, 250, 0.3);
+  background: rgba(167, 139, 250, 0.08);
+}
+
+.links a:hover::after {
+  transform: translateX(3px);
+}
+
+
+.container {
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-img {
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.03);
+}
+.card {
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
 }
 
 
