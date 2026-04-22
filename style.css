@@ -17,6 +17,19 @@ body {
   padding: 60px 20px;
 }
 
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+
 /* HERO */
 .hero {
   text-align: center;
